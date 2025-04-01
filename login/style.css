@@ -1,0 +1,35 @@
+.left-half {
+    width: 45vw; /* 50% da largura da tela */
+    height: 50vh; /* 100% da altura da tela */
+    border-top-right-radius: 60px;  /* Arredonda o canto superior direito */
+    border-bottom-right-radius: 60px; /* Arredonda o canto inferior direito */
+}
+
+.big-button {
+    width: 300px;
+    height: 19%;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.padding-e {
+    margin-right:;
+}
+
+.btn-orange {
+    background-color: #fd7634;
+    color: aliceblue;
+    width: 225px;
+    height: ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-orange:hover {
+
+    background-color: #FECB00;
+}
