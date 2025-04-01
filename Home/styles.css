@@ -1,0 +1,63 @@
+.bg-yellow{
+    background: #FECB00;
+}
+.navbar{
+    width: 100%;
+}
+
+.navbar-brand a{
+    width: 40%;
+    height: 40%;
+}
+
+.navbar-brand img{
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link i{
+    font-size: 40px;
+}
+
+.form-control{
+    margin-right: 0px;
+}
+
+.btn-outline{
+    margin-right: 100px;
+}
+
+.toolbar-toggler{
+    color: black;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.toolbar{
+    background: #eeeeee;
+}
+
+#toolbar{
+    list-style: none;
+}
+
+.toolbar-button{
+    border: 0;
+    background-color: #fd7634;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#filter{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#container{
+    border-left: solid #FECB00 40px;
+    border-right: solid #FECB00 40px;
+}
