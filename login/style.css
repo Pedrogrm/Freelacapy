@@ -5,11 +5,26 @@
     border-bottom-right-radius: 60px; /* Arredonda o canto inferior direito */
 }
 
+.welcome{
+    color: #eeee;
+}
+
+span{
+    color: #07f9b0;
+}
+
 .big-button {
     width: 300px;
     height: 19%;
     font-size: 30px;
     font-style: bold;
+    background-color: #07f9b0;
+    color: #eeee;
+}
+
+.big-button:hover{
+    color: #eeee;
+    background-color: #07f9b0;
 }
 
 .margin-top {
@@ -25,6 +40,6 @@
 }
 
 .btn-orange:hover {
-
+    color: #eeee;
     background-color: #672eba;
 }
