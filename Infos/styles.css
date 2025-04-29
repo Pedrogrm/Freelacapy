@@ -1,23 +1,23 @@
 /* Configurações para cor de fundo amarela */
 .bg-yellow{
-    background: #FECB00;
+    background: #672eba;
 }
 
 /* Configurações para contorno e texto amarelo */
 .btn-outline-yellow{
-    color: #FECB00;
-    border: 1px solid #FECB00;
+    color: #672eba;
+    border: 1px solid #672eba;
 }
 .btn-outline-yellow:hover{
-    background: #FECB00;
+    background: #672eba;
 }
 
 /* Configurações para fundo laranja */
 .bg-orange{
-    background: #fd7634;
+    background: #07f9b0;
 }
 .bg-orange:hover{
-    background: #FECB00;
+    background: #672eba;
 }
 
 .navbar{
@@ -54,7 +54,7 @@
 
 .btn-outline{
     margin-right: 100px;
-    background-color: #FECB00;
+    background-color: #672eba;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -83,14 +83,14 @@
 
 .toolbar-button{
     border: 0;
-    background-color: #fd7634;
+    background-color: #07f9b0;
     font-size: 20px;
     border-radius: 10px;
     width: 200px;
 }
 
 .toolbar-button:hover {
-    background-color: #FECB00;
+    background-color: #672eba;
 }
 
 #filter{
@@ -100,8 +100,8 @@
 }
 
 #container{
-    border-left: solid #FECB00 40px;
-    border-right: solid #FECB00 40px;
+    border-left: solid #672eba 40px;
+    border-right: solid #672eba 40px;
 }
 
 .img-fluid{

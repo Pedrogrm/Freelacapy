@@ -16,20 +16,15 @@
     margin-top: 50px;
 }
 
-.padding-e {
-    margin-right:;
-}
-
 .btn-orange {
-    background-color: #fd7634;
+    background-color: #07f9b0;
     color: aliceblue;
     width: 225px;
-    height: ;
     font-weight: bold;
     cursor: pointer;
 }
 
 .btn-orange:hover {
 
-    background-color: #FECB00;
+    background-color: #672eba;
 }
