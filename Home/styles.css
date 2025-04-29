@@ -1,6 +1,25 @@
+/* Configurações para cor de fundo amarela */
 .bg-yellow{
     background: #FECB00;
 }
+
+/* Configurações para contorno e texto amarelo */
+.btn-outline-yellow{
+    color: #FECB00;
+    border: 1px solid #FECB00;
+}
+.btn-outline-yellow:hover{
+    background: #FECB00;
+}
+
+/* Configurações para fundo laranja */
+.bg-orange{
+    background: #fd7634;
+}
+.bg-orange:hover{
+    background: #FECB00;
+}
+
 .navbar{
     width: 100%;
 }
@@ -19,20 +38,38 @@
 
 .nav-link i{
     font-size: 40px;
+    color: black;
+    margin-left: 10px;
+}
+
+.nav-link i:hover{
+    cursor: pointer;
 }
 
 .form-control{
     margin-right: 0px;
+    padding: 10px;
 }
 
 .btn-outline{
     margin-right: 100px;
+    background-color: #FECB00;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-outline:hover{
+    cursor: pointer;
 }
 
 .toolbar-toggler{
     color: black;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 5px;
+    font-weight: bold;
+}
+
+.toolbar-toggler:hover{
+    cursor: pointer;
 }
 
 .toolbar{
@@ -51,6 +88,10 @@
     width: 200px;
 }
 
+.toolbar-button:hover {
+    background-color: #FECB00;
+}
+
 #filter{
     width: 50%;
     margin-top: 20px;
@@ -60,4 +101,26 @@
 #container{
     border-left: solid #FECB00 40px;
     border-right: solid #FECB00 40px;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    background: #ececec;
+    border: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
 }
