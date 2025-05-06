@@ -14,8 +14,14 @@
     body {
       background-color: #efefef;
       font-family: 'Segoe UI', sans-serif;
+      margin-top: 120px;
+      text-decoration: none;
     }
 
+    a {
+      text-decoration: none;
+    }
+    
     .login-wrapper {
       max-width: 850px;
       margin: 50px auto;
@@ -63,7 +69,17 @@
       font-weight: bold;
       border-radius: 8px;
       font-size: 18px;
-      color: #000;
+      color: #FFF;
+      transition: all 0.3s ease;
+    }
+
+    .btn-register:hover,
+    .btn-register:focus,
+    .btn-register:active {
+      background-color: #00d6ac;
+      border-color: #2ebc93;
+      color: #FFF;
+      box-shadow: 0 0 0 0.2rem rgba(0, 247, 194, 0.3);
     }
 
     .right-panel {
@@ -94,6 +110,15 @@
       font-weight: bold;
       border-radius: 8px;
       border: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-login:hover,
+    .btn-login:focus,
+    .btn-login:active {
+      background-color: #501fa0;
+      color: #fff;
+      box-shadow: 0 0 0 0.2rem rgba(103, 46, 186, 0.3);
     }
 
     .small-link {
@@ -138,7 +163,7 @@
           <input type="password" class="form-control" placeholder="Senha" required>
         </div>
         <button type="submit" class="btn btn-login">Login</button>
-        <p class="text-center mt-3 text-muted" style="font-size: 0.9rem;">É uma empresa fornecedora?</p>
+        <a href="tela-inicial-empresa.html"><p class="text-center mt-3 text-muted" style="font-size: 0.9rem;">É uma empresa?</p></a>
       </form>
     </div>
 
